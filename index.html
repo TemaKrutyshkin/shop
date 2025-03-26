@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин товаров</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Онлайн магазин</h1>
+            <nav id="auth-nav">
+                <!-- Содержимое будет генерироваться JavaScript -->
+                <button id="logoutBtn" class="nav-button">Выйти</button>
+                <a href="cart.html" class="nav-button">Корзина</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Наши товары</h2>
+        <div class="products-grid" id="products-container">
+            <!-- Товары будут загружены через JavaScript -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Онлайн магазин "РусЭкспоКом"</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>  <!-- Или ваш основной скрипт -->
+</body>
+</html>
